@@ -1,0 +1,8 @@
+sybx:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    sybx:
+      driverClassName: com.mysql.cj.jdbc.Driver
+      url: 'jdbc:mysql://aliyun.mysql:3306/sybx?characterEncoding=UTF-8&autoReconnect=true&rewriteBatchedStatements=true&useSSL=false'
+      username: root
+      password: aliyun

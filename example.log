@@ -1,0 +1,44 @@
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG http-nio-8080-exec-1 org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG http-nio-8080-exec-1 org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@60cd8b54] was not registered for synchronization because synchronization is not active
+DEBUG http-nio-8080-exec-1 org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@60cd8b54]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG http-nio-8080-exec-1 org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG http-nio-8080-exec-1 org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1a2fbb5d] was not registered for synchronization because synchronization is not active
+DEBUG http-nio-8080-exec-1 org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1a2fbb5d]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG http-nio-8080-exec-1 org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG http-nio-8080-exec-1 org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@46c4d402] was not registered for synchronization because synchronization is not active
+DEBUG http-nio-8080-exec-1 org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@46c4d402]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG http-nio-8080-exec-1 org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG http-nio-8080-exec-1 org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@62e1d557] was not registered for synchronization because synchronization is not active
+DEBUG http-nio-8080-exec-1 org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4bef65bf] will not be managed by Spring
+DEBUG http-nio-8080-exec-1 cc.sybx.example.app.mapper.UserMapper.countByExample - ==>  Preparing: select count(*) from user
+DEBUG http-nio-8080-exec-1 cc.sybx.example.app.mapper.UserMapper.countByExample - ==> Parameters: 
+DEBUG http-nio-8080-exec-1 cc.sybx.example.app.mapper.UserMapper.countByExample - <==      Total: 1
+DEBUG http-nio-8080-exec-1 org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@62e1d557]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG http-nio-8080-exec-1 org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG http-nio-8080-exec-1 org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7e64297f] was not registered for synchronization because synchronization is not active
+DEBUG http-nio-8080-exec-1 org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37627eaf] will not be managed by Spring
+DEBUG http-nio-8080-exec-1 cc.sybx.example.app.mapper.UserMapper.countByExample - ==>  Preparing: select count(*) from user
+DEBUG http-nio-8080-exec-1 cc.sybx.example.app.mapper.UserMapper.countByExample - ==> Parameters: 
+DEBUG http-nio-8080-exec-1 cc.sybx.example.app.mapper.UserMapper.countByExample - <==      Total: 1
+DEBUG http-nio-8080-exec-1 org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7e64297f]
+DEBUG http-nio-8080-exec-2 org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG http-nio-8080-exec-2 org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@d3868e8] was not registered for synchronization because synchronization is not active
+DEBUG http-nio-8080-exec-2 org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37627eaf] will not be managed by Spring
+DEBUG http-nio-8080-exec-2 cc.sybx.example.app.mapper.UserMapper.countByExample - ==>  Preparing: select count(*) from user
+DEBUG http-nio-8080-exec-2 cc.sybx.example.app.mapper.UserMapper.countByExample - ==> Parameters: 
+DEBUG http-nio-8080-exec-2 cc.sybx.example.app.mapper.UserMapper.countByExample - <==      Total: 1
+DEBUG http-nio-8080-exec-2 org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@d3868e8]
